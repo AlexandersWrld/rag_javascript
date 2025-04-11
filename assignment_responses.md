@@ -12,8 +12,8 @@ The bidirectional pre-training essentially allowed the model to read inputs in b
 
 | features |  OpenAI  |   BERT   |
 |----------|----------|----------|
-| network  | needs internet         | works offline         |
-|          |          |          |
+| network connectivity  | needs internet         | works offline         |
+| Scalability  | dependent on physical hardware and storage         |  highly scalable   |
 |          |          |          |
 
 
