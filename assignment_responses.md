@@ -10,11 +10,12 @@ The bidirectional pre-training essentially allowed the model to read inputs in b
 
 3.  **BERT vs. Ada:** Create a table summarizing the key differences (pros/cons) between using a locally run Sentence-BERT model versus the OpenAI `text-embedding-ada-002` API for generating embeddings in a project.
 
-| features |  OpenAI  |   BERT   |
+| Features |  OpenAI  |   BERT   |
 |----------|----------|----------|
-| network connectivity  | needs internet         | works offline         |
-| Scalability  | dependent on physical hardware and storage         |  highly scalable   |
-|          |          |          |
+| Network Connectivity  | Needs internet | Works offline |
+| Scalability  | Highly Scalable | dependent on physical hardware and storage |
+| Performance  | Powerful and accurate performance | Good but not as powerful as OpenAI |
+| Cost | Uses a token model that requires refill | Free after one time set up |
 
 
 4.  **Chunking Scenario:** Imagine you have a large PDF textbook (1000 pages) that you want to use for RAG.
